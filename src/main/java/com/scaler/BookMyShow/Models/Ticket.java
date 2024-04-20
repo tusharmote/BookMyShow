@@ -15,6 +15,7 @@ import java.util.List;
 public class Ticket extends BaseModel {
     private int totalAmount;
     private LocalDateTime timeOfBooking;
+
     @ManyToOne
     private Show1 show;
     @Enumerated(EnumType.STRING)
